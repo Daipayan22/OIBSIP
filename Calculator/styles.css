@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100;400&family=Roboto:wght@300;500&display=swap');
+*{
+    font-family: 'Robobto', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    width: 100%;
+    background-color: #00ccff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+.container{
+    background-color: azure;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.row{
+    margin: 10px 0; 
+    padding: 20px;
+}
+
+input{
+    height: 50px;
+    background: #93d2f9;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: right;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    width: 50px;
+    height: 55px;
+    padding: 15px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:  #7ac9fb;
+    color: #046b85;
+    font-size: 15px;
+}
+
+button.button-num{
+    color: black;
+    background-color: #c5e9ff;
+}
+
+.button-cn{
+    font-size: 17px;
+}
+
+button.button-ent{
+    color: rgb(255, 255, 255) ;
+    background-color: #2e9ce1;
+    
+}
